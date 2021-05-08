@@ -26,6 +26,8 @@ int main()
         }
     }
 
+    printf("\nPrime numbers between 1 and %d\n", index);
+
     for (int i = 0; i < num; i++)
     {
         if (i < num - 1)
